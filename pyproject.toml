@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "FEQC"
+version = "0.1.0"
+description = "The project about control the food and exercise by a person and give insights to."
+authors = ["Samir Araripe <samir.araripe@delfosim.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.9"
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
